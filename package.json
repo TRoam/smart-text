@@ -1,5 +1,5 @@
 {
-  "name": "smarttext",
+  "name": "smart-text-react",
   "version": "1.0.0",
   "description": "React component for render smart text",
   "main": "index.js",

@@ -1,10 +1,12 @@
 {
   "name": "smart-text-react",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "React component for render smart text",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
   },
   "author": "Roam Tang",
   "license": "MIT",
@@ -20,5 +22,24 @@
   "bugs": {
     "url": "https://github.com/TRoam/smart-text/issues"
   },
-  "homepage": "https://github.com/TRoam/smart-text#readme"
+  "homepage": "https://github.com/TRoam/smart-text#readme",
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "dependencies": {
+    "intl-messageformat": "^2.2.0",
+    "js-cookie": "^2.2.0",
+    "lodash": "^4.17.11",
+    "prop-types": "^15.6.2",
+    "react": "^15.5.4",
+    "webpack": "^2.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  }
 }

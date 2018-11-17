@@ -1,0 +1,19 @@
+// font-family
+$font-family: 'SourceHanSansCN', 'PingFang SC', 'Microsoft YaHei',
+  'Helvetica Neue', 'Segoe UI', 'Arial', 'Heiti SC';
+// font-family for english
+$font-family-en: 'Helvetica Neue', 'Arial', 'Segoe UI';
+// font-family for chinese
+$font-family-zh: 'SourceHanSansCN', 'PingFang SC', 'Microsoft YaHei', 'Arial',
+  'Heiti SC';
+// font-family for numbers
+$font-family-number: 'DINAlternate-Bold', 'Helvetica Neue', 'Arial';
+
+// the :export directive is the magic sauce for webpack
+:export {
+  // font family
+  fontFamily: $font-family;
+  fontFamilyEN: $font-family-en;
+  fontFamilyZH: $font-family-zh;
+  fontFamilyNumber: $font-family-number;
+}
